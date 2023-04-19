@@ -1,0 +1,333 @@
+
+/* LAYOUT OG GENERELLE REGLER */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+main{
+    height: 7877px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("images/baggrund.jpg");
+    padding-top: 10%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.center{
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+#linebreak{
+    width: fit-content;
+    margin-top: 14%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* BILLEDER */
+.imgsize{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* LOGO */
+#logo{
+    width: auto;
+    height: 250px;
+}
+
+#albert_logo{
+    font-family: "baskerville-urw", serif;
+    font-weight: 200;
+    font-size: 160%;
+    line-height: 145%;
+    text-align: left;
+    width: 15%;
+    margin-top: 2%;
+    margin-bottom: 13%;
+    margin-left: 45%;
+    align-items: center;
+}
+
+#albert_logo p:last-child{
+    font-size: 200%;
+}
+
+
+
+
+
+
+
+
+
+
+/* OVERSKRIFTER */
+.quote{
+    font-family: "giulia", sans-serif;
+    font-weight: 400;
+    font-size: 500%;
+}
+
+#quote1{
+    margin-top: 25%;
+    margin-bottom: 20%;    
+}
+
+#quote2{
+    margin-top: 10%;
+}
+
+#navn{
+    font-size: 45%;
+    padding-top: 10%;
+    padding-bottom: 2%;
+}
+
+.overskrift{
+    font-family: "giulia", sans-serif;
+    font-size: 500%;
+}
+
+#tankerne_overskrift{
+    padding-top: 20%;
+    padding-bottom: 7%;  
+}
+
+#tegninger_overskrift{
+    margin-top: 12%;
+}
+
+#tegninger_overskrift p:last-child{
+    padding-left: 30%;
+    font-size: 70%;  
+}
+
+.historien_overskrift{
+    line-height: 170px;
+    font-size: 110%;
+    letter-spacing: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+/* IMAGE CAROUSEL AF BØGERNE */
+#carousel{
+    display: flex;
+    align-items: center;
+    margin-left: -40px;
+}
+
+#venstrePil, #hoejrePil{
+    margin: 5%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/* BRØDTEKST */
+.brodtekst{
+    font-family: "baskerville-urw", serif;
+    font-weight: 400;
+    font-size: 113%;
+    letter-spacing: .5px;
+    text-justify: distribute;
+    text-align: justify;
+}
+
+.tekst_right{
+    text-align: end;
+    padding-top: 8%;
+}
+
+#tekst_bog{
+    width: 45%; 
+}
+
+#tekst_historien{
+    margin-top: 4%;
+    width: 40%;
+    float: right;
+    line-height: 38px;
+}
+
+.kolonne{
+    width: 45%;
+    line-height: 38px;
+}
+
+
+
+
+
+
+
+
+
+
+/* FONT OG FARVE*/
+#font{
+    color: #F2EFDF;
+    font-family: "giulia", sans-serif;
+    word-spacing: -5px;
+    font-size: 150%;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.kursiv{
+    font-style: oblique;
+}
+
+.color_beige{
+    color: #F2EFDF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* VIDEOER */
+video{
+    margin-top: 9%;
+    width: 1000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BØRNENES TEGNINGER */
+.tegning{
+    height: 260px;
+    width: 21%;
+    margin-top: 6%;
+    transition: transform .5s;
+}
+
+.tegning:hover{
+    transform: scale(1.2);
+}
+
+#tegning_tekst{
+    text-align: center;
+    margin-top: 4%;
+}
+
+#navne{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15%;
+    margin-top: 1%;
+}
+
+#navne p{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "giulia", sans-serif;
+    font-size: 180%;
+    color: #F2EFDF;
+}
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+#link a{
+    font-family: "baskerville-urw", serif;
+    font-weight: 400;
+    font-size: 130%;
+    color: #F2EFDF;
+    text-decoration: underline;
+}
+
+#ikon{
+    width: 160px;
+}
+
+#ikon a{
+    font-size: 200%;
+    margin-left: 10%;
+    color: #F2EFDF;
+}
+
+#footer{
+    margin-top: 10%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* ANIMATION TIL LOGO */
+.puff-in-center{animation:puff-in-center 1s cubic-bezier(.47,0.000,.745,.715) both}
+@keyframes puff-in-center{0%{transform:scale(2);filter:blur(4px);opacity:0}100%{transform:scale(1);filter:blur(0);opacity:1}}

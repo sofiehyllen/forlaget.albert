@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Små mennesker, store drømme</title>
+
+    <!--FONTS-->
+    <link rel="stylesheet" href="https://use.typekit.net/jlj7vyi.css">
+
+    <!--ANIMATIONER-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!--IKONER-->
+    <script src="https://kit.fontawesome.com/a5ca7cf292.js" crossorigin="anonymous"></script>
+
+    <!--JAVASCRIPT-->
+    <script src="script.js" defer></script>
+
+    <!--ANIMATIONER-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <main>
+        <section class="center">
+            <div class="puff-in-center" id="logo"> 
+                <!--Vi har lavet animationer på 2 forskellige måder, da vi var i tvivl om hvilken metode der var mest korrekt.
+                Her bruger vi CSS og i resten af koden bruger vi AOS Javascript. 
+                Hvad er din holdning til vores metoder? Er der en tredje måde der er bedre så vi ungår at style i html som ved AOS?-->
+                <img class="imgsize fade" src="images/logo.png" alt="Svane og Bilgrav logo">
+            </div>
+
+            <div id="albert_logo">
+                <p>Forlaget</p>
+                <p>Albert</p>
+            </div>
+
+            <img src="images/pil.ned.png" alt="pil">
+        </section>
+
+
+        <section class="quote" id="quote1">
+            <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="800" class="slide-right">
+                <p class="color_beige">Små mennesker,</p>
+            </div>
+            <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="800" class="tekst_right" >
+                <p class="color_beige">store drømme.</p>
+            </div>
+        </section>
+
+        <section class="flex">
+            <div id="carousel">
+                <img id="venstrePil" src="images/pil.venstre.png" alt="Venstre pil">
+                    <div id="boger">
+                        <img id="bog1" src="images/bog.malala.png" alt="Bog om Malala Yousafzai">
+                        <img id="bog2" src="images/bog.lennon.png" alt="Bog om John Lennon">
+                        <img id="bog3" src="images/bog.jane.png" alt="Bog om Jane Austin">
+                        <img id="bog4" src="images/bog.rupaul.png" alt="Bog om Ru Paul">
+                        <img id="bog5" src="images/bog.lovelace.png" alt="Bog om Ada Lovelace">
+                        <img id="bog6" src="images/bog.luther.png" alt="Bog om Martin Luther">
+                    </div>
+                <img id="hoejrePil" src="images/pil.hojre.png" alt="Hojre pil">
+            </div>
+
+            <div class="brodtekst" id="tekst_bog">
+                <p class="color_beige"> <span id="font" >Små mennesker, store drømme</span> er en børne-bogsserie skrevet af den spanske forfatter Maria Isabel Sánches Vegara. 
+                    Serien er udgivet af børnebogsforlaget Forlaget Albert, der er lokaliseret i hjertet af Aarhus. <br><br>
+                    Bøgerne finder inspiration i mennesker fra den virkelige verden, som med deres store drømme og ambitioner, på den ene eller anden måde har ændret verden. <br><br>
+                    Idéen til bogserien opstod da Marias to niecer blev født. 
+                    Her opdager Maria, at der er mangel på stærke, inspirerende kvindefigurer i børnelitteraturen, så hun beslutter sig for at tage sagen i egen hånd. <br><br>
+                    Seriens første bog fortæller historien om Frida Kahlo, og efterfølgende har serien vokset sig større og bredere med mænd og kvinder fra hele verden, der har drømt stort og udrettet utrolige ting. <br><br>
+                    Til venstre kan du se et udvalg af bøgerne.
+                </p>    
+            </div>
+        </section>
+
+        <section class="center">
+            <div class="overskrift">
+                <p data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="200" data-aos-duration="800" id="tankerne_overskrift">Tankerne bag bogserien</p>
+            </div>
+            <div class="brodtekst" >
+                <div class="flex">
+                <p  class="kolonne">
+                    Forlaget Albert har en vision om at udgive børnebøger som inspirerer, giver værdi og gør børn klogere på verden omkring dem. 
+                    Små mennesker, store drømme passer perfekt ind i denne vision, 
+                    da den implicit fortæller børn, at de kan blive præcis hvad de vil her i livet uanset køn, etnicitet og seksualitet. 
+                </p>
+                
+                <p class="kolonne">
+                    Forlaget vil samtidig, gennem alle deres faglitterære børnebøger, oplyse børn såvel som voksne om alle de inspirerende og kloge mennesker der findes, 
+                    og har fandtes, rundt omkring i verden. Dette giver alle aldersgrupper mulighed for at lære nyt hvilket også er tanken bag alle de børnebøger, der udgives af Forlaget Albert.
+                </p>                    
+                </div>
+            </div>
+
+            <div>
+                <video controls>
+                    <source src="video/bogserien.mp4" type="video/mp4">
+                  </video>
+            </div>
+
+            <div id="linebreak">
+                <img class="imgsize" src="images/linebreak.png" alt="linebreak">
+            </div>
+        </section>
+
+        <section class="quote">
+            <div id="quote2">
+                <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="800" >
+                    <p class="kursiv">Børn elsker historier om <br> andre børn der opnår <br> store ting. </p>
+                </div>
+                <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="800" class="tekst_right" >
+                    <p class="kursiv">Det giver dem modet og <br> styrken til at tro på sig <br> selv og drømme stort. </p>
+                </div>
+                <div>
+                    <p id="navn">- Maria Isabel Sánchez Vegara</p>
+                </div>                
+            </div>
+
+            <div class="center">
+                <video controls>
+                    <source src="video/animatic.mp4" type="video/mp4">
+                  </video>
+            </div>
+        </section>
+
+        <section class="center">
+            <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="200" 
+            data-aos-duration="800" class="overskrift" id="tegninger_overskrift">
+                <p class="color_beige">Fra de små</p>
+                <p class="color_beige">- til de små</p>
+            </div>
+
+            <div class="brodtekst" id="tegning_tekst">
+                <p class="color_beige">Tryk på børnene for at høre hvad de synes om bøgerne!</p>
+            </div>
+
+            <div class="flex">
+                <div class="tegning">
+                    <a href="javascript:playSound('signe');"><img class="imgsize" src="images/signe.png" alt="signe" /></a>
+                    <audio id="signe"  src="audio/signe.mp4" preload="auto"></audio>
+                </div>
+
+                <div class="tegning">
+                    <a href="javascript:playSound('molly');"><img class="imgsize" src="images/molly.png" alt="molly" /></a>
+                    <audio id="molly"  src="audio/molly.mp4" preload="auto"></audio>
+                </div>
+
+                <div class="tegning">
+                    <a href="javascript:playSound('clara');"><img class="imgsize" src="images/clara.png" alt="clara" /></a>
+                    <audio id="clara"  src="audio/clara.mp4" preload="auto"></audio>
+                </div>
+
+                <div class="tegning">
+                    <a href="javascript:playSound('ella');"><img class="imgsize" src="images/ella.png" alt="ella" /></a>
+                    <audio id="ella"  src="audio/ella.mp4" preload="auto"></audio>
+                </div>
+            </div>
+
+            <div id="navne">
+                <p>Signe</p>
+                <p>Molly</p>
+                <p>Clara</p>
+                <p>Ella</p>                    
+            </div>
+        </section>
+
+        <section>
+            <div class="overskrift">
+                <p data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="800" class="historien_overskrift">Historien</p>
+                <p data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="800" class="historien_overskrift">bag</p>
+                <p data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="800" class="historien_overskrift">forlaget</p>
+            </div>
+
+            <div id="tekst_historien">
+                <p data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="800" class="brodtekst">
+                    Forlaget Albert blev stiftet af Søren Bilgrav-Nielsen og Lone Svane i 2018, og startede oprindeligt som et hobbyprojekt. 
+                    Da de ved forlagets opstart skulle finde et navn, blev forlaget opkaldt efter Sørens første barnebarn Albert, og navnet har holdt ved lige siden. <br><br>
+                </p>
+                    
+                <p data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="800" class="brodtekst">
+                Den første bog der blev udgivet af forlaget var den første i bogserien “Små mennesker, store drømme” om Frida Kahlo, og nu har de netop udgivet nr. 25 af 26 bøger fra samme bogserie. <br><br>
+                </p>
+                    
+                <p data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="800" class="brodtekst">
+                    Forlæggerne udgiver også bøger til voksne under Forlaget Svane og Bilgrav.
+                </p>
+            </div>
+
+            <div class="center">
+                <video controls>
+                    <source src="video/forlaget.mp4" type="video/mp4">
+                  </video>
+            </div>            
+        </section>
+
+        <section id="footer" >
+            <div class="flex">
+                <div id="link">
+                    <a  href="https://svaneogbilgrav.dk/" target="_blank">svaneogbilgrav.dk</a>
+                </div>
+
+                <div class="flex">
+                    <div id="ikon">
+                        <a href="https://www.facebook.com/svaneogbilgrav" target="_blank"><i class="fa-brands fa-square-facebook" style="color: #f2efdf;"></i></a>
+                        <a href="https://www.instagram.com/svaneogbilgrav/?hl=da" target="_blank"><i class="fa-brands fa-instagram" style="color: #f2efdf;"></i></a>
+                        <a href="mailto: X = Feedback&body = Messages" target="_blank" ><i class="fa-regular fa-envelope" style="color: #f2efdf;"></i></a>                        
+                    </div>
+                </div>                
+            </div>
+        </section>
+    </main>
+</body>
+</html>
