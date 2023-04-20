@@ -10,8 +10,7 @@
 }
 
 main{
-    height: 7877px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url("images/baggrund.jpg");
     padding-top: 10%;
@@ -217,6 +216,11 @@ main{
     font-weight: 400;
 }
 
+#font_footer{
+    font-family: "giulia", sans-serif;
+    font-size: 150%;
+}
+
 .kursiv{
     font-style: oblique;
 }
@@ -306,6 +310,7 @@ video{
 
 #ikon{
     width: 160px;
+    margin-top: 10%;
 }
 
 #ikon a{
@@ -315,8 +320,9 @@ video{
 }
 
 #footer{
-    margin-top: 10%;
-    
+    margin-top: 7%;
+    padding-top: 3%;
+    padding-bottom: 2%;
 }
 
 
